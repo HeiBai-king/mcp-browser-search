@@ -1,0 +1,42 @@
+{
+  "name": "mcp-browser-search",
+  "version": "1.0.0",
+  "description": "An MCP server that runs web search and page fetching through a real Chromium browser over CDP, so every request carries the profile's cookies, login state and real fingerprint.",
+  "type": "module",
+  "main": "mcp-browser-search.js",
+  "bin": {
+    "mcp-browser-search": "mcp-browser-search.js"
+  },
+  "files": [
+    "mcp-browser-search.js",
+    "selfcheck.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node mcp-browser-search.js",
+    "selfcheck": "node selfcheck.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.4.3"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "web-search",
+    "web-fetch",
+    "cdp",
+    "chrome-devtools-protocol",
+    "chromium",
+    "chrome",
+    "edge",
+    "browser-automation",
+    "agent-tools",
+    "ai-agent"
+  ],
+  "license": "MIT"
+}
